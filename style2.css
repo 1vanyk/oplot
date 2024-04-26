@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+}
+header {
+    border-bottom: 5px solid black;
+}
+h1, h2 {
+    text-align: center;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: 10px;
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+    filter: drop-shadow(3px 3px 3px #949ba1);
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    font-size: 20px;
+    border: 2px solid rgb(223, 223, 223);
+    background-color: rgb(223, 223, 223);
+    padding: 5px;
+    border-radius: 10px;
+}
+nav a:hover{
+  background-color: white;
+  border: 2px solid rgb(255, 255, 255);
+
+}
+p {
+    margin-top: 30px;
+    background-color: rgb(107, 107, 255);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+ul li {
+    margin-bottom: 10px;
+}
+a {
+    color: white;
+}
+img {
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 10px;
+}
+.image-container {
+   margin-top: 30px;
+}
+footer {
+    background-color: rgb(107, 107, 255);
+}
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 30px;
+}
